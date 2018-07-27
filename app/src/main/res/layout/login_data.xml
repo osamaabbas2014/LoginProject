@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingBottom="8dp"
+        style="@style/headerText"/>
+
+    <TextView
+        android:id="@+id/sent_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your email address"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/headerText"
+        android:text="Password"
+        android:paddingBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/sent_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your password"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/headerText"
+        android:text="Again password"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/sent_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="again password"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/headerText"
+        android:text="Mobile"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/sent_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your mboile"/>
+
+
+
+</LinearLayout>
